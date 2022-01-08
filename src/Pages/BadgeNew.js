@@ -63,7 +63,7 @@ class BadgeNew extends Component {
           <div className="row">
             <div className="col-6">
               <Badge
-                firstName={this.state.form.firstName || "Firts Name"}
+                firstName={this.state.form.firstName || "First Name"}
                 lastName={this.state.form.lastName || "Last Name"}
                 jobTitle={this.state.form.jobTitle || "Job Title"}
                 twitter={this.state.form.twitter || "twitter"}
@@ -72,6 +72,7 @@ class BadgeNew extends Component {
               />
             </div>
             <div className="col-6">
+            <h1>New Attendant</h1>
               <BadgeForm
                 onChange={this.handleChange}
                 onSubmit={this.handleSubmit}
